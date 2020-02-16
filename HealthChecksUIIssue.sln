@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecksUIClient", "HealthChecksUIClient\HealthChecksUIClient.csproj", "{8C0894F9-C835-4E06-9AE3-32A1BA3B4CAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HealthChecjsUIClientTests", "HealthChecjsUIClient\HealthChecjsUIClientTests.csproj", "{D2176E30-B7B1-44A7-A001-F1C88FB3347B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8C0894F9-C835-4E06-9AE3-32A1BA3B4CAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8C0894F9-C835-4E06-9AE3-32A1BA3B4CAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8C0894F9-C835-4E06-9AE3-32A1BA3B4CAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8C0894F9-C835-4E06-9AE3-32A1BA3B4CAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2176E30-B7B1-44A7-A001-F1C88FB3347B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2176E30-B7B1-44A7-A001-F1C88FB3347B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2176E30-B7B1-44A7-A001-F1C88FB3347B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2176E30-B7B1-44A7-A001-F1C88FB3347B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B154B91-0AD2-4146-B6BE-AB57AAB2926B}
+	EndGlobalSection
+EndGlobal
