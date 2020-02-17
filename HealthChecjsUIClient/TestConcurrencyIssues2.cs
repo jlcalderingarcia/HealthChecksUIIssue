@@ -8,11 +8,11 @@ using Xunit;
 
 namespace HealthChecjsUIClientTests
 {
-    public class TestConcurrencyIssues : IClassFixture<MyWebFactory<Startup>>
+    public class TestConcurrencyIssues2 : IClassFixture<MyWebFactory<Startup>>
     {
         private readonly WebApplicationFactory<Startup> factory;
 
-        public TestConcurrencyIssues(
+        public TestConcurrencyIssues2(
             MyWebFactory<Startup> factory
         ) {
             this.factory = factory.WithWebHostBuilder(builder => {
